@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Otter Library System</string>
+    <string name="account_button">Create Account</string>
+    <string name="hold_button">Place Hold</string>
+    <string name="manage_button">Manage System</string>
+    <string name="create_account">Enter Username and Password</string>
+    <string name="confirm_account_button">Confirm Username and Password</string>
+
+    <string-array name="genre_array">
+        <item>Memoir</item>
+        <item>Fiction</item>
+        <item>Computer Science</item>
+    </string-array>
+
+</resources>

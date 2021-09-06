@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dip" >
+
+    <TextView
+        android:id="@+id/hold_info_prompt"
+        android:text="Is this Correct?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/result_hold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="placeholder"
+        android:textSize="20.5sp" />
+
+    <Button
+        android:id="@+id/correct_hold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yes" />
+
+    <Button
+        android:id="@+id/incorrect_hold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No" />
+
+</LinearLayout>
